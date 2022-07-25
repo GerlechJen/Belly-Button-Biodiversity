@@ -14,9 +14,8 @@ manipulate and parse the data
 
 An index.html page was created with links to CDNs and the JavaScript file (charts.js). 
 
-A dropdown menu that lists the ID numbers of all the participants was built, 
+A dropdown menu that lists the ID numbers of all the participants was built for the dashboard. 
 
-For this dashboard, the menu option was the ID of the participants 
 A function is created which displays the demographic data as well as all the 3 charts once a user chooses an id from the dropdown menu
  
 By default, when a user first opens the page, the init()  function is called and data and charts for ID 940 are displayed. The visualizations keep on changing as different participant IDs are selected from the dropdown menu. Upon selection of different IDS, the optionChanged() function is called. 

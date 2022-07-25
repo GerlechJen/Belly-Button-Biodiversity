@@ -50,4 +50,4 @@ Using bootstrap and HTML, the webpage was cuustomised by:
 ## Summary
 Using Plotly.js, attractive, accessible, and interactive data visualizations with buttons and drop-down menus were created and deployed to the web.  The webpage can be accessed by the participants, and fellow researchers. Once a participant enters their id number, they can determine not just the most common bacteria species, by count, that live in their navel but also, the top 10 bacteria species. This way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the participants will be able to identify whether that species is found in their navel.
 
-The completed webpage can be accessed by using this .
+The completed webpage can be accessed by using this [link](https://gerlechjen.github.io/Belly-Button-Biodiversity/).

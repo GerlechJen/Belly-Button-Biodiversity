@@ -27,21 +27,25 @@ The image below shows the demographic information associated with the participan
 
 ![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/demographic%20info.png)
  
-The horizontal bar chart shows the top 10 bacterial species (OTUs). It displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
-
-Bar Chart for 1280 
+The horizontal bar chart shows the top 10 bacterial species (OTUs). It displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart. The Bar Chart for participant with ID 1280 is shown below. 
 
 ![image2](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/barchart.png)
 
 
-Gauge Chart for 960 
+The Bubble Chart displays the otu_ids as the x-axis values, the sample_values as the y-axis values, sample_values as marker size, otu_ids as marker colors and otu_labels as hover-text values. The bubble chart displayed when participant with ID 1530 is selected from the dropdown menu is shown below.
 
-![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/gaugechart.png)
-weekly washing frequency of the belly button
-
-Bubble Chart for 1530 
 ![image4](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/bubblechart.png)
 
-## Summary
-Using Plotly.js, a JavaScript data visualization library, attractive, accessible, and interactive data visualizations were created and deployed to the web. Buttons and drop-down menus were included. The dashboard built displays the most common bacterial species, by count, in the navel and will be accessible to the research participants as well as fellow researchers. Once a participant enters his or her id number, they can determine which top 10 bacteria species live in their navel. This is a great way for them to better understand the data and draw conclusions. 
 
+The Gauge Chart displays the weekly washing frequency's value. The value is displayed as a measure from 0-10 on the progress bar in the gauge chart when a participant ID is selected from the dropdown menu. The Gauge Chart for ID 960 is shown below
+
+![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/gaugechart.png)
+
+### Customizing the Dashboard
+Using bootstrap and HTML, the webpage was cuustomised by:
+1. Adding an image to the jumbotron.
+2. Adding a background color to the webpage(rgb(250, 255, 255)).
+3. Adding more information about the project as a paragraph on the page.
+
+## Summary
+Using Plotly.js attractive, accessible, and interactive data visualizations with buttons and drop-down menus were created and deployed to the web. The dashboard built displayed the most common bacterial species, by count, in the navel and can be accessed by the research participants, as well as fellow researchers. Once a participant enters their id number, they can determine which top 10 bacteria species live in their navel which is a great way for them to better understand the belly button data and draw conclusions. 

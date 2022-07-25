@@ -8,7 +8,7 @@ In this project, engaging and dynamic charts will be created from belly button d
 
 ## Results
 
-A dropdown menu that lists the ID numbers of all the participants was built for the dashboard. A function was also created which displays the demographic information, as well as 3 visualizations once a user chooses an ID from the dropdown menu. These visualizations help the participants to identify the top 10 bacterial species in their belly buttons. This way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the participants will be able to identify whether that species is found in their navel.The three visualizations created are a Horizontal Bar Chart, a Bubble Chart and a Gauge Chart.
+A dropdown menu that lists the ID numbers of all the participants was built for the dashboard. A function was also created which displays the demographic information, as well as 3 visualizations once a user chooses an ID from the dropdown menu. These visualizations help the participants to identify bacterial species in their belly buttons and draw conclusions. The three visualizations created are a Horizontal Bar Chart, a Bubble Chart and a Gauge Chart.
  
 By default, when a user first opens the page, an init() function is called and demographic data and charts for ID 940 are displayed. The visualizations keep on changing as different participant IDs are selected from the dropdown menu. Upon selection of different IDs, an optionChanged() function is called. 
  
@@ -48,4 +48,6 @@ Using bootstrap and HTML, the webpage was cuustomised by:
 3. Adding more information about the project as a paragraph on the page.
 
 ## Summary
-Using Plotly.js attractive, accessible, and interactive data visualizations with buttons and drop-down menus were created and deployed to the web. The dashboard built displayed the most common bacterial species, by count, in the navel of participants. It can be accessed by the participants, as well as fellow researchers. Once a participant enters their id number, they can determine which top 10 bacteria species live in their navel which is a great way for them to better understand the belly button data and draw conclusions. 
+Using Plotly.js, attractive, accessible, and interactive data visualizations with buttons and drop-down menus were created and deployed to the web.  The webpage can be accessed by the participants, and fellow researchers. Once a participant enters their id number, they can determine not just the most common bacteria species, by count, that live in their navel but also, the top 10 bacteria species. This way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the participants will be able to identify whether that species is found in their navel.
+
+The completed webpage can be accessed by using this .

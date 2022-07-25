@@ -28,6 +28,15 @@ The image below shows the demographic information associated with the participan
 ![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/demographic%20info.png)
  
 The horizontal bar chart shows the top 10 bacterial species (OTUs). It displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
+
+Bar Chart for 1280 
+
+![image2](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/barchart.png)
+
+
+Gauge Chart for 960 
+
+![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/gaugechart.png)
 weekly washing frequency of the belly button
 
 ## Summary

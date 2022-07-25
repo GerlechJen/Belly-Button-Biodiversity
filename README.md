@@ -25,7 +25,7 @@ Once the above function is called 2 things happen.
  
 The image below shows the demographic information associated with the participant with ID 954.
 
-![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/demographic%20info.png)
+![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/images/demographic%20info.png)
  
 The horizontal bar chart shows the top 10 bacterial species (OTUs). It displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart. The Bar Chart for participant with ID 1280 is shown below. 
 
@@ -39,7 +39,7 @@ The Bubble Chart displays the otu_ids as the x-axis values, the sample_values as
 
 The Gauge Chart displays the weekly washing frequency's value. The value is displayed as a measure from 0-10 on the progress bar in the gauge chart when a participant's ID is selected from the dropdown menu. The Gauge Chart for ID 960 is shown below
 
-![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/gaugechart.png)
+![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/images/gaugechart.png)
 
 ### Customizing the Dashboard
 Using bootstrap and HTML, the webpage was cuustomised by:

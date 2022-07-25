@@ -21,7 +21,7 @@ By default, when a user first opens the page, an init() function is called and d
 ```
 Once the above function is called 2 things happen.
 1. The demographic information panel is populated with the specific volunteer's information.
-2. The volunteer's data is visualized in three charts. (bar, bubble and gauge)
+2. The volunteer's data is visualized in three charts (Bar, Bubble and Gauge).
  
 The image below shows the demographic information associated with the participant with ID 954.
 

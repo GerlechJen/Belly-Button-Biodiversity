@@ -7,6 +7,7 @@ She sampled navels of people across the country to identify bacterial species th
 
 In this project, engaging and dynamic charts will be created specifically a bar chhart, bubble chart and gauge chart to best convey the belly button data to the participants and other researchers. 
 
+data contained in samples.json
 ## Results
 
 The belly button data was retrieved from an external JSON file using D3.js library and a local server. The data was iterated through to retrieve necessary data.
@@ -16,12 +17,17 @@ manipulate and parse the data
 
 An index.html page was created with links to CDNs and the JavaScript file (charts.js). 
 
-To build a dropdown menu, 
-The <select> tag is used to create a dropdown menu. The <option> tag is used to create each menu option. For this dashboard the menu optiion was the ID of the participants 
+A dropdown menu which lists the ID numbers of all the participants was built , 
+
+ 
+In the index,html file, A <div> belonging to the well class contains a dropdown menu with an id of selDataset while a <div> with an id of sample-metadata is the information panel. The <select> tag is used to create the dropdown menu. 
+ 
+ 
+ For this dashboard the menu option was the ID of the participants 
  
  A function is created which displays the demographic data as well as all the 3 charts once a user chooses an id from the dropdown menu
  
- By default, when a user first opens the page, the init()  function i9s called and data and charts for ID 940 are displayed. The visualizations keep on changing as different IDs are selected. Upon selection of different IDS, the optionChanged(newSample) function is called. 
+ By default, when a user first opens the page, the init()  function is called and data and charts for ID 940 are displayed. The visualizations keep on changing as different participant IDs are selected from the dropdown menu. Upon selection of different IDS, the optionChanged() function is called. 
  
  ``` JavaScript
  function optionChanged(newSample) {
@@ -30,8 +36,11 @@ The <select> tag is used to create a dropdown menu. The <option> tag is used to 
   buildCharts(newSample);  
 }
 ```
-
-Once a person's ID number is selected, the demographic information associated with that individual is displayed as shown below:
+Once the function is called 2 things happen.
+1. The demographic information panel is populated with the specific volunteer's information.
+2. The volunteer's data is visualized in three charts. (bar, bubble and gauge)
+ 
+The image below shows the demographic information associated with participant with ID 
 
 ![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/demographic%20info.png)
 

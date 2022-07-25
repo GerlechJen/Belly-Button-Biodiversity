@@ -9,11 +9,29 @@ In this project, engaging and dynamic charts will be created specifically a bar 
 
 ## Results
 
-The belly button data was read using D3.js library and a local server.
+The belly button data was retrieved from an external JSON file using D3.js library and a local server. The data was iterated through to retrieve necessary data.
+To make the visualisations interactive, JavaScript event listeners were created.
 
 manipulate and parse the data 
 
-Once a person's ID number is selected, she would like to display the demographic information of that individual.
+An index.html page was created with links to CDNs and the JavaScript file (charts.js). 
+
+To build a dropdown menu, 
+The <select> tag is used to create a dropdown menu. The <option> tag is used to create each menu option. For this dashboard the menu optiion was the ID of the participants 
+ 
+ A function is created which displays the demographic data as well as all the 3 charts once a user chooses an id from the dropdown menu
+ 
+ By default, when a user first opens the page, the init()  function i9s called and data and charts for ID 940 are displayed. The visualizations keep on changing as different IDs are selected. Upon selection of different IDS, the optionChanged(newSample) function is called. 
+ 
+ ``` JavaScript
+ function optionChanged(newSample) {
+  // Fetch new data each time a new sample is selected
+  buildMetadata(newSample);
+  buildCharts(newSample);  
+}
+```
+
+Once a person's ID number is selected, the demographic information associated with that individual is displayed as shown below:
 
 ![image1](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/demographic%20info.png)
 

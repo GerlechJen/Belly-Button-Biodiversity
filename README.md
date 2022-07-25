@@ -29,12 +29,12 @@ The image below shows the demographic information associated with the participan
  
 The horizontal bar chart shows the top 10 bacterial species (OTUs). It displays the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart. The Bar Chart for participant with ID 1280 is shown below. 
 
-![image2](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/barchart.png)
+![image2](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/images/barchart.png)
 
 
 The Bubble Chart displays the otu_ids as the x-axis values, the sample_values as the y-axis values, sample_values as marker size, otu_ids as marker colors and otu_labels as hover-text values. The bubble chart displayed when participant with ID 1530 is selected from the dropdown menu is shown below.
 
-![image4](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/bubblechart.png)
+![image4](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/images/bubblechart.png)
 
 
 The Gauge Chart displays the weekly washing frequency's value. The value is displayed as a measure from 0-10 on the progress bar in the gauge chart when a participant's ID is selected from the dropdown menu. The Gauge Chart for ID 960 is shown below

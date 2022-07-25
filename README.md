@@ -8,13 +8,14 @@ In this project, engaging and dynamic charts will be created specifically a bar 
 data contained in samples.json
 ## Results
 The belly button data was retrieved from an external JSON file using the D3.js library and a local server. The data was iterated through to retrieve the necessary data.
+
 To make the visualizations interactive, JavaScript event listeners were created.
 manipulate and parse the data 
 
 An index.html page was created with links to CDNs and the JavaScript file (charts.js). 
 
 A dropdown menu that lists the ID numbers of all the participants was built, 
-In the index.html file, A <div> belonging to the well class contains a dropdown menu with an id of selDataset while a <div> with an id of sample-metadata is the information panel. The <select> tag is used to create the dropdown menu.  
+
 For this dashboard, the menu option was the ID of the participants 
 A function is created which displays the demographic data as well as all the 3 charts once a user chooses an id from the dropdown menu
  

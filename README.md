@@ -37,7 +37,7 @@ The Bubble Chart displays the otu_ids as the x-axis values, the sample_values as
 ![image4](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/bubblechart.png)
 
 
-The Gauge Chart displays the weekly washing frequency's value. The value is displayed as a measure from 0-10 on the progress bar in the gauge chart when a participant ID is selected from the dropdown menu. The Gauge Chart for ID 960 is shown below
+The Gauge Chart displays the weekly washing frequency's value. The value is displayed as a measure from 0-10 on the progress bar in the gauge chart when a participant's ID is selected from the dropdown menu. The Gauge Chart for ID 960 is shown below
 
 ![image3](https://github.com/GerlechJen/Belly-Button-Biodiversity/blob/main/Module%2012%20Challenge/images/gaugechart.png)
 

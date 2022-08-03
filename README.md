@@ -52,5 +52,8 @@ Using Plotly.js, attractive, accessible, and interactive data visualizations wit
 
 The completed webpage can be accessed by using this [link](https://gerlechjen.github.io/Belly-Button-Biodiversity/).
 
-Completed by: Jennifer Anno-Kusi
-Email: jannokusi@gmail.com 
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
